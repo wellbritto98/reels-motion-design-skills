@@ -1,0 +1,20 @@
+{
+  "name": "vinho-areia",
+  "brand": { "name": "Meu Canal Premium", "handle": "@meucanal", "tagline": "" },
+  "colors": {
+    "ink": "#1a0b12", "navy": "#26111b", "card": "#331826", "card2": "#43212f", "line": "#6a3a4c",
+    "text": "#fbf3e8", "mute": "#d0b9a8",
+    "accent": "#e8c27a", "positive": "#7ed6a6", "negative": "#ff7a85", "info": "#8fb8ff", "extra": "#d9a6ff"
+  },
+  "gradient": ["accent", "negative"],
+  "fonts": {
+    "head": { "family": "Playfair Display", "weights": ["700", "800", "900"] },
+    "body": { "family": "Plus Jakarta Sans", "weights": ["500", "700"] }
+  },
+  "shape": { "cardRadius": 56, "windowRadius": 52, "borderWidth": 2, "accentBar": true },
+  "captions": { "highlight": "accent", "sizeFull": 62, "sizeSplit": 46, "plateColor": "ink", "uppercase": false },
+  "background": { "style": "plain", "gridOpacity": 0 },
+  "speaker": { "ring": "accent" },
+  "motion": { "damping": 20, "stiffness": 120 },
+  "sfx": { "gain": 1.0 }
+}

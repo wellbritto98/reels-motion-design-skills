@@ -1,0 +1,7 @@
+{ "title": "Tokens — padrão azul-ouro", "sources": ["template/design-system/design-system.json", "template/src/brand.generated.ts"],
+  "categories": [{"category": "Colors", "count": 12, "notes": "5 de superfície/linha, 2 de texto, 5 de papel (accent, positive, negative, info, extra)"}, {"category": "Typography", "count": 2, "notes": "Montserrat (head 600/800/900) e Inter (body 500/700); sem escala de tamanhos definida"}],
+  "palette": [{"name": "color-ink", "value": "#06122b"}, {"name": "color-card", "value": "#10264c"}, {"name": "color-accent", "value": "#ffc83d"}, {"name": "color-positive", "value": "#2ee59d"}, {"name": "color-negative", "value": "#ff5d6c"}, {"name": "color-info", "value": "#4da3ff"}],
+  "gaps": ["Escala de tamanhos de fonte não definida — decisão do usuário", "Níveis de sombra/elevação não definidos", "Escala de espaçamento não definida"],
+  "inconsistencies": [{"issue": "Nomes de aparência no código × nomes de papel no JSON", "values": ["gold", "accent"], "where": "brand.generated.ts × design-system.json", "suggestion": "expor aliases semânticos (confirmar)"}],
+  "output": "design-system/tokens.extracted.css (não gerado neste exemplo)",
+  "nextSteps": ["Decidir as lacunas com o usuário", "Rodar audit após criar as escalas"] }

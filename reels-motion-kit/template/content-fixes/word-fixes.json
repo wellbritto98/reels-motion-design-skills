@@ -1,0 +1,3 @@
+[
+  {"match": ["exemploerrado"], "replace": ["exemplo corrigido"], "first": true}
+]

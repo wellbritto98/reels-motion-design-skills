@@ -1,0 +1,20 @@
+{
+  "name": "verde-neon",
+  "brand": { "name": "Meu Canal Energia", "handle": "@meucanal", "tagline": "" },
+  "colors": {
+    "ink": "#050a07", "navy": "#0a140e", "card": "#0f1d15", "card2": "#17301f", "line": "#2a5238",
+    "text": "#f2fff6", "mute": "#9bc4a8",
+    "accent": "#b6ff3c", "positive": "#2ee59d", "negative": "#ff4d6d", "info": "#3cc8ff", "extra": "#d58cff"
+  },
+  "gradient": ["accent", "info"],
+  "fonts": {
+    "head": { "family": "Anton", "weights": ["400"] },
+    "body": { "family": "Inter", "weights": ["500", "700"] }
+  },
+  "shape": { "cardRadius": 36, "windowRadius": 32, "borderWidth": 4, "accentBar": true },
+  "captions": { "highlight": "accent", "sizeFull": 74, "sizeSplit": 56, "plateColor": "ink", "uppercase": true },
+  "background": { "style": "grid", "gridOpacity": 0.06 },
+  "speaker": { "ring": "accent" },
+  "motion": { "damping": 12, "stiffness": 190 },
+  "sfx": { "gain": 1.3 }
+}

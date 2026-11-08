@@ -1,0 +1,5 @@
+{
+  "fps": 30,
+  "durationSeconds": 24,
+  "comment": "durationSeconds = duração do source.mp4 (ffprobe). Resolução do vídeo fonte: ver SRC_W/SRC_H em src/layout.ts."
+}

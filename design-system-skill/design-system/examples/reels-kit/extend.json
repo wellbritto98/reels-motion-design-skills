@@ -1,0 +1,8 @@
+{ "name": "Calendar (inserção)", "problem": "Vídeos que citam datas, feriados ou fins de semana remunerados hoje exigem componente próprio (feito à mão em examples/financas); falta uma versão na biblioteca de dados.",
+  "existing": [{"component": "RowsList", "similarity": "lista de itens com ícone", "whyNot": "não mostra a grade de dias nem destaca datas"}, {"component": "DotsGrid", "similarity": "grade de itens que mudam de grupo", "whyNot": "sem rótulos de dia/semana"}],
+  "api": [{"name": "month", "type": "{days: number; startsOn: 0-6}", "default": "30 dias, quarta", "description": "Formato do mês exibido."}, {"name": "highlights", "type": "{days: number[]; tone: ColorName; label: string; at: number}[]", "default": "[]", "description": "Dias destacados e quando entram."}],
+  "variants": [{"name": "weekend", "useWhen": "sábados e domingos", "visual": "dias em verde"}, {"name": "holiday", "useWhen": "feriados", "visual": "dias em dourado"}],
+  "states": [{"state": "Entrada", "behavior": "dia a dia com escala 0,4→1", "notes": "ancorado em `at`"}],
+  "tokens": {"colors": ["C.card2", "C.line", "C.green", "C.gold"], "spacing": [], "typography": ["FONT.head"]},
+  "accessibility": {"role": "Elemento visual de vídeo", "keyboard": "Não interativo", "screenReader": "A informação precisa estar na fala/legenda"},
+  "openQuestions": ["Promover para library.tsx (≥ 2 usos) ou manter só como exemplo?", "Aceitar semana começando no domingo?"] }

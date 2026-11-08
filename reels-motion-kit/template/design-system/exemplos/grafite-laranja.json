@@ -1,0 +1,20 @@
+{
+  "name": "grafite-laranja",
+  "brand": { "name": "Meu Canal Tech", "handle": "@meucanal", "tagline": "" },
+  "colors": {
+    "ink": "#0d0f12", "navy": "#14181d", "card": "#1b2027", "card2": "#252c35", "line": "#3a4452",
+    "text": "#f5f6f8", "mute": "#a4adba",
+    "accent": "#ff7a1a", "positive": "#39d98a", "negative": "#ff4d5e", "info": "#5aa9ff", "extra": "#c28bff"
+  },
+  "gradient": ["accent", "info"],
+  "fonts": {
+    "head": { "family": "Archivo", "weights": ["700", "800", "900"] },
+    "body": { "family": "DM Sans", "weights": ["500", "700"] }
+  },
+  "shape": { "cardRadius": 40, "windowRadius": 36, "borderWidth": 3, "accentBar": true },
+  "captions": { "highlight": "accent", "sizeFull": 66, "sizeSplit": 50, "plateColor": "ink", "uppercase": false },
+  "background": { "style": "grid", "gridOpacity": 0.05 },
+  "speaker": { "ring": "accent" },
+  "motion": { "damping": 13, "stiffness": 170 },
+  "sfx": { "gain": 1.2 }
+}

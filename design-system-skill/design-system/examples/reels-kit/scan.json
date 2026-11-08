@@ -1,0 +1,2672 @@
+{
+  "generatedAt": "2026-11-08T22:43:37.709Z",
+  "root": "C:/rt",
+  "scannedFiles": 23,
+  "tokensDefined": {
+    "cssCustomProperties": 0,
+    "objects": [
+      {
+        "name": "BRAND",
+        "file": "scripts/apply-design-system.mjs"
+      },
+      {
+        "name": "C",
+        "file": "scripts/apply-design-system.mjs"
+      },
+      {
+        "name": "FONT",
+        "file": "scripts/apply-design-system.mjs"
+      },
+      {
+        "name": "SHAPE",
+        "file": "scripts/apply-design-system.mjs"
+      },
+      {
+        "name": "BRAND",
+        "file": "src/brand.generated.ts"
+      },
+      {
+        "name": "C",
+        "file": "src/brand.generated.ts"
+      },
+      {
+        "name": "FONT",
+        "file": "src/brand.generated.ts"
+      },
+      {
+        "name": "SHAPE",
+        "file": "src/brand.generated.ts"
+      }
+    ],
+    "tailwindTheme": [],
+    "dtcgJson": [],
+    "sampleVars": []
+  },
+  "tokenUsage": {
+    "cssVarReferences": 0,
+    "objectReferences": 403,
+    "hardcodedValues": 128,
+    "coveragePercent": 76,
+    "note": "cobertura = referências a tokens ÷ (referências + valores fixos). Heurística: confira uma amostra antes de citar."
+  },
+  "hardcoded": {
+    "colors": {
+      "count": 22,
+      "distinct": 12,
+      "top": [
+        {
+          "value": "#ffffff",
+          "count": 10,
+          "files": [
+            "src/DesignSystem.tsx",
+            "src/examples/financas/inserts1.tsx",
+            "src/examples/financas/inserts2.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "rgba(0,0,0,0.5)",
+          "count": 2,
+          "files": [
+            "src/Main.tsx"
+          ]
+        },
+        {
+          "value": "rgba(0,0,0,0.55)",
+          "count": 1,
+          "files": [
+            "src/Captions.tsx"
+          ]
+        },
+        {
+          "value": "#0a1a38",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "rgba(6,18,43,0)",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "rgba(6,18,43,0.75)",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "rgba(255,255,255,0.8)",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "rgba(0,0,0,0)",
+          "count": 1,
+          "files": [
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "rgba(0,0,0,0.7)",
+          "count": 1,
+          "files": [
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "rgba(255,255,255,0.85)",
+          "count": 1,
+          "files": [
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "rgba(0,0,0,0.45)",
+          "count": 1,
+          "files": [
+            "src/Main.tsx"
+          ]
+        },
+        {
+          "value": "#000000",
+          "count": 1,
+          "files": [
+            "src/Speaker.tsx"
+          ]
+        }
+      ]
+    },
+    "fonts": {
+      "count": 0,
+      "distinct": 0,
+      "top": []
+    },
+    "fontSizes": {
+      "count": 26,
+      "distinct": 19,
+      "top": [
+        {
+          "value": "90px",
+          "count": 4,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/examples/financas/inserts2.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "30px",
+          "count": 3,
+          "files": [
+            "src/examples/financas/inserts2.tsx",
+            "src/Main.tsx",
+            "src/ui.tsx"
+          ]
+        },
+        {
+          "value": "40px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "24px",
+          "count": 1,
+          "files": [
+            "src/DesignSystem.tsx"
+          ]
+        },
+        {
+          "value": "150px",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "70px",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "170px",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "26px",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts2.tsx"
+          ]
+        },
+        {
+          "value": "80px",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts2.tsx"
+          ]
+        },
+        {
+          "value": "160px",
+          "count": 1,
+          "files": [
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "84px",
+          "count": 1,
+          "files": [
+            "src/inserts/library.tsx"
+          ]
+        }
+      ]
+    },
+    "offScaleSpacing": {
+      "count": 37,
+      "distinct": 10,
+      "top": [
+        {
+          "value": "18px",
+          "count": 8,
+          "files": [
+            "src/DesignSystem.tsx",
+            "src/examples/financas/inserts1.tsx",
+            "src/examples/financas/inserts2.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "14px",
+          "count": 7,
+          "files": [
+            "src/DesignSystem.tsx",
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx",
+            "src/ui.tsx"
+          ]
+        },
+        {
+          "value": "30px",
+          "count": 7,
+          "files": [
+            "src/DesignSystem.tsx",
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "26px",
+          "count": 5,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/examples/financas/inserts2.tsx",
+            "src/inserts/library.tsx",
+            "src/ui.tsx"
+          ]
+        },
+        {
+          "value": "22px",
+          "count": 3,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "10px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "190px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/Main.tsx"
+          ]
+        },
+        {
+          "value": "34px",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "70px",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts2.tsx"
+          ]
+        },
+        {
+          "value": "170px",
+          "count": 1,
+          "files": [
+            "src/Main.tsx"
+          ]
+        }
+      ]
+    },
+    "radii": {
+      "count": 38,
+      "distinct": 19,
+      "top": [
+        {
+          "value": "24px",
+          "count": 5,
+          "files": [
+            "src/DesignSystem.tsx",
+            "src/examples/financas/inserts1.tsx",
+            "src/examples/financas/inserts2.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "30px",
+          "count": 4,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "28px",
+          "count": 4,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx",
+            "src/ui.tsx"
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 3,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/examples/financas/inserts2.tsx"
+          ]
+        },
+        {
+          "value": "36px",
+          "count": 2,
+          "files": [
+            "src/Captions.tsx",
+            "src/DesignSystem.tsx"
+          ]
+        },
+        {
+          "value": "9px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "10px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "8px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "22px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/inserts/library.tsx"
+          ]
+        },
+        {
+          "value": "26px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx",
+            "src/Main.tsx"
+          ]
+        },
+        {
+          "value": "15px",
+          "count": 2,
+          "files": [
+            "src/examples/financas/inserts1.tsx"
+          ]
+        },
+        {
+          "value": "5px",
+          "count": 1,
+          "files": [
+            "src/DesignSystem.tsx"
+          ]
+        }
+      ]
+    },
+    "shadows": {
+      "count": 4,
+      "distinct": 4,
+      "top": [
+        {
+          "value": "0 3px 14px rgba(0,0,0,0.55)",
+          "count": 1,
+          "files": [
+            "src/Captions.tsx"
+          ]
+        },
+        {
+          "value": "0 30px 80px rgba(0,0,0,0.5)",
+          "count": 1,
+          "files": [
+            "src/Main.tsx"
+          ]
+        },
+        {
+          "value": "0 16px 40px rgba(0,0,0,0.45)",
+          "count": 1,
+          "files": [
+            "src/Main.tsx"
+          ]
+        },
+        {
+          "value": "0 18px 50px rgba(0,0,0,0.5)",
+          "count": 1,
+          "files": [
+            "src/Main.tsx"
+          ]
+        }
+      ]
+    },
+    "zIndex": {
+      "count": 1,
+      "distinct": 1,
+      "top": [
+        {
+          "value": "1",
+          "count": 1,
+          "files": [
+            "src/examples/financas/inserts2.tsx"
+          ]
+        }
+      ]
+    },
+    "durations": {
+      "count": 0,
+      "distinct": 0,
+      "top": []
+    },
+    "tailwindArbitrary": {
+      "count": 0,
+      "distinct": 0,
+      "top": []
+    }
+  },
+  "naming": {
+    "tokenNameStyles": {},
+    "tokenObjectKeyStyles": {
+      "single-word": 34,
+      "CONSTANT": 2,
+      "camel": 4
+    },
+    "tokenObjectKeys": [
+      "ink",
+      "navy",
+      "card",
+      "card2",
+      "line",
+      "text",
+      "mute",
+      "gold",
+      "green",
+      "red",
+      "blue",
+      "violet",
+      "head",
+      "body",
+      "GRADIENT",
+      "highlight",
+      "plate",
+      "sizeFull",
+      "sizeSplit",
+      "uppercase"
+    ],
+    "tokenPrefixes": {},
+    "componentFileStyles": {
+      "PascalCase": 5,
+      "camelCase": 5
+    }
+  },
+  "components": [
+    {
+      "name": "Captions",
+      "file": "src/Captions.tsx",
+      "lines": 70,
+      "props": [],
+      "variants": false,
+      "sizes": false,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": true,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 1
+    },
+    {
+      "name": "DesignSystem",
+      "file": "src/DesignSystem.tsx",
+      "lines": 35,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 1,
+      "documented": true,
+      "componentsInFile": 1
+    },
+    {
+      "name": "HBar",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "Balance",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "TitleCard",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "ClaimsList",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "QuestionsPage",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "NeedVsOffer",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "PecPage",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "RightsPage",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "TwoModalities",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "CollectivePage",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "ContractVsConv",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "ConventionOut",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "BargainPower",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "EmployeeWants",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "ProfitUp",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "IncentivesA",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "IncentivesB",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "Asymmetry",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "NeedMoney",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "FlexJobs",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "HoursGap",
+      "file": "src/examples/financas/inserts1.tsx",
+      "lines": 393,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 21
+    },
+    {
+      "name": "MinWage",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "HourValue",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "HundredHours",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "Hours176",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "Result1",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "Compare",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "ThinkNot",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "PaidRest",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "InssFgtsA",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "InssRule",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "HoursTicker",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "End6x1",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "FlowChips",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "ProfitFlex",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "ToggleDays",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "Cascade",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "BelowMin",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "FallingChart",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "RealWage",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "Governments",
+      "file": "src/examples/financas/inserts2.tsx",
+      "lines": 354,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 5,
+      "documented": false,
+      "componentsInFile": 20
+    },
+    {
+      "name": "INSERTS",
+      "file": "src/inserts/index.ts",
+      "lines": 21,
+      "props": [],
+      "variants": false,
+      "sizes": false,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": false,
+      "hardcodedColors": 0,
+      "documented": true,
+      "componentsInFile": 1
+    },
+    {
+      "name": "ICONS",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "TitleCard",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "RowsList",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "BigStat",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "Equation",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "Bars",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "LineChart",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "PhotoCard",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "Versus",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "Balance",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "DotsGrid",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "Flow",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "Quote",
+      "file": "src/inserts/library.tsx",
+      "lines": 302,
+      "props": [],
+      "variants": true,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": true,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 4,
+      "documented": true,
+      "componentsInFile": 13
+    },
+    {
+      "name": "Main",
+      "file": "src/Main.tsx",
+      "lines": 126,
+      "props": [],
+      "variants": true,
+      "sizes": false,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 7,
+      "documented": false,
+      "componentsInFile": 1
+    },
+    {
+      "name": "Root",
+      "file": "src/Root.tsx",
+      "lines": 13,
+      "props": [],
+      "variants": false,
+      "sizes": false,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": false,
+      "hardcodedColors": 0,
+      "documented": false,
+      "componentsInFile": 1
+    },
+    {
+      "name": "Speaker",
+      "file": "src/Speaker.tsx",
+      "lines": 25,
+      "props": [],
+      "variants": false,
+      "sizes": false,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 1
+    },
+    {
+      "name": "Pop",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [
+        {
+          "name": "delay",
+          "optional": true,
+          "type": "number"
+        }
+      ],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "Panel",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "Kicker",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "H1",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "Body",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "Gold",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "Pill",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "Row",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconClock",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconCoin",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconCheck",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconCross",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconUser",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconPeople",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconBuilding",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconDoc",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconCalendar",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconLeaf",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconFlask",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconChip",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconArrow",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    },
+    {
+      "name": "IconTrend",
+      "file": "src/ui.tsx",
+      "lines": 109,
+      "props": [],
+      "variants": false,
+      "sizes": true,
+      "states": {
+        "hover": false,
+        "focus": false,
+        "active": false,
+        "disabled": false,
+        "loading": false,
+        "error": false
+      },
+      "a11y": {
+        "aria": 0,
+        "role": 0,
+        "alt": 0,
+        "tabIndex": 0
+      },
+      "usesTokens": true,
+      "hardcodedColors": 2,
+      "documented": true,
+      "componentsInFile": 22
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "BigStat",
+  "description": "Número em destaque que sobe de 0 até o valor, para um dado isolado dito pelo apresentador (ex.: salário mínimo). Use uma vez por ideia; para comparar dois valores prefira Bars.",
+  "variants": [
+    {"name": "color: green | gold | red | blue | violet", "useWhen": "green = positivo/ganho, red = perda/alerta, gold = destaque neutro"},
+    {"name": "format: brl | brl2 | int | dec1 | dec2 | pct", "useWhen": "brl para reais inteiros, brl2 para centavos, pct para percentuais"}
+  ],
+  "props": [
+    {"name": "value", "type": "number", "default": "—", "description": "Valor final da contagem."},
+    {"name": "at", "type": "number", "default": "—", "description": "Segundo ABSOLUTO do vídeo em que o número entra (use wordTime())."},
+    {"name": "format", "type": "'brl'|'brl2'|'int'|'dec1'|'dec2'|'pct'", "default": "'int'", "description": "Formatação pt-BR do número."},
+    {"name": "color", "type": "ColorName", "default": "'green'", "description": "Cor do número (token do design system)."},
+    {"name": "kicker / label / sub", "type": "string", "default": "—", "description": "Textos opcionais acima e abaixo do número."},
+    {"name": "icon", "type": "string", "default": "—", "description": "Nome do ícone (clock, coin, trend…)."}
+  ],
+  "states": [
+    {"state": "Entrada", "visual": "Pop com escala 0,6→1 e fade", "behavior": "inicia em `at`; contagem de 36 quadros com easing out"},
+    {"state": "Repouso", "visual": "Número final na cor escolhida", "behavior": "permanece até o fim da página do grupo"},
+    {"state": "Saída", "visual": "Fade de 8 quadros", "behavior": "aplicada pelo ItemWrap quando não é a última página"}
+  ],
+  "accessibility": {"role": "Elemento visual de vídeo (sem role)", "keyboard": "Não interativo", "screenReader": "Informação equivalente deve estar na legenda/fala; o número não é lido isoladamente"},
+  "dos": ["Ancorar `at` no onset da palavra do número", "Usar brl2 quando a fala cita centavos"],
+  "donts": ["Mostrar um número que o apresentador não disse", "Usar duas BigStat seguidas sem 1,5 s entre elas"],
+  "code": {"lang": "ts", "source": "item(256.2, 271.2, 'BigStat', {label: 'Salário mínimo em 2026', value: 1621, format: 'brl', color: 'green', at: 260.5}, [[260.5, 'coin']])"}
+}

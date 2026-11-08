@@ -1,0 +1,54 @@
+{
+  "title": "Audit — reels-motion-kit (template)",
+  "project": "reels-motion-kit/template",
+  "date": "2026-11-08",
+  "summary": { "components": 12, "issues": 14, "score": 69 },
+  "naming": [
+    {
+      "issue": "Tokens de cor com nome de APARÊNCIA, enquanto o design-system.json usa nome de PAPEL (accent, positive, negative, info, extra)",
+      "components": ["brand.generated.ts → C.gold/green/red/blue/violet", "design-system.json → accent/positive/negative/info/extra"],
+      "recommendation": "Expor aliases semânticos em C (C.accent, C.positive…) e migrar os usos; manter os nomes antigos como depreciados por uma versão."
+    },
+    {
+      "issue": "Chaves de tema em estilos misturados (palavra única, CONSTANT, camelCase)",
+      "components": ["C.ink/navy…", "SFX_GAIN", "GRADIENT", "CAPTION.sizeFull"],
+      "recommendation": "Padronizar: objetos em camelCase/palavra única (C, FONT, SHAPE, CAPTION, MOTION) e constantes soltas dentro de um objeto (SFX_GAIN → AUDIO.sfxGain)."
+    },
+    {
+      "issue": "Arquivos de componente em estilos diferentes e vários componentes por arquivo",
+      "components": ["ui.tsx (25 componentes)", "inserts/library.tsx (12)", "Captions.tsx / Speaker.tsx (PascalCase)"],
+      "recommendation": "Um estilo só (PascalCase por componente) ou documentar a convenção 'um arquivo por família' (ui.tsx = primitivos, library.tsx = inserções)."
+    }
+  ],
+  "tokens": [
+    { "category": "Colors", "defined": "12 (C) + gradiente + legenda", "hardcoded": "22 usos / 12 distintos (#fff ×10, rgba(0,0,0,.5) sombras/scrims)", "note": "Fixos concentrados em branco sobre cor cheia e sombras; falta token 'onAccent' e 'scrim'." },
+    { "category": "Typography", "defined": "2 famílias (head/body)", "hardcoded": "26 usos de tamanho / 19 distintos", "note": "Não há escala de tamanhos; cada componente escolhe o seu (ex.: 90, 40, 30, 20 px)." },
+    { "category": "Spacing", "defined": "0", "hardcoded": "37 usos fora da escala de 4 px (18, 14, 30, 26 px…)", "note": "Em vídeo 1080 px pode ser aceitável, mas então documente a escala em vez de deixar implícita." },
+    { "category": "Radius", "defined": "2 (cardRadius, windowRadius)", "hardcoded": "38 usos / 19 distintos (24, 30, 28, 20, 36 px)", "note": "Faltam raios nomeados (sm/md/lg/pill)." },
+    { "category": "Shadows", "defined": "0", "hardcoded": "4 sombras literais", "note": "Sem níveis de elevação." },
+    { "category": "Motion", "defined": "MOTION.damping/stiffness", "hardcoded": "springs fixos em vários componentes", "note": "Tokens existem, mas os componentes passam configs próprias." }
+  ],
+  "components": [
+    { "name": "TitleCard", "states": "ok", "variants": "warn", "docs": "warn", "score": 7 },
+    { "name": "RowsList", "states": "ok", "variants": "ok", "docs": "warn", "score": 8 },
+    { "name": "BigStat", "states": "ok", "variants": "warn", "docs": "warn", "score": 7 },
+    { "name": "Bars", "states": "ok", "variants": "ok", "docs": "warn", "score": 8 },
+    { "name": "LineChart", "states": "ok", "variants": "warn", "docs": "warn", "score": 7 },
+    { "name": "PhotoCard", "states": "ok", "variants": "warn", "docs": "warn", "score": 6 },
+    { "name": "Balance", "states": "ok", "variants": "warn", "docs": "warn", "score": 7 },
+    { "name": "Captions", "states": "ok", "variants": "warn", "docs": "ok", "score": 8 }
+  ],
+  "priorities": [
+    "Expor aliases semânticos (C.accent, C.positive, C.negative, C.info, C.extra) em apply-design-system.mjs e migrar library.tsx/Main.tsx/Captions.tsx — hoje o nome diz a cor, não o papel.",
+    "Criar escalas nomeadas de fonte e de raio no design-system.json (hoje 19 tamanhos e 19 raios distintos) e gerá-las em brand.generated.ts.",
+    "Tokenizar os valores fixos repetidos: '#fff' ×10 → C.onAccent; rgba(0,0,0,.5) → SHADOW.card / SCRIM; sombras literais → níveis de elevação.",
+    "PhotoCard: <Img> sem alt (acessibilidade do artefato HTML/preview) e sem texto alternativo configurável; adicionar prop alt e documentar.",
+    "Documentar as props das 12 inserções (JSDoc + exemplo de timeline) — rodar o modo document nas 5 mais usadas: RowsList, BigStat, Bars, PhotoCard, Equation."
+  ],
+  "reviewPasses": [
+    { "pass": "Acessibilidade", "findings": 2, "severity": "média", "notes": "PhotoCard sem alt. Contrastes dos tokens padrão OK (texto/card 13,96:1; mute/card 7,05:1; negative/card 5,01:1); bordas decorativas line/card 1,69:1 não carregam informação. Não renderizado em navegador nesta auditoria." },
+    { "pass": "Estados de interação", "findings": 0, "severity": "—", "notes": "Não aplicável: componentes são quadros de vídeo, sem interação (hover/focus/loading)." },
+    { "pass": "Hierarquia e ritmo", "findings": 3, "severity": "baixa", "notes": "Tamanhos de título variam entre 58 e 90 px sem escala; espaçamentos 14/18/26/30 px sem lógica de agrupamento clara." }
+  ],
+  "notes": "Subtotais (rubrica de scoring.md): tokens 27/35 (cobertura heurística 76%, não amostrada integralmente) · nomenclatura 9/15 · componentes 26/35 (média 7,3/10 sobre 8 de 12 componentes amostrados; estados e acessibilidade tratados como não aplicáveis a vídeo) · documentação 7/15 (guia existe; sem changelog; ~40% documentado). A varredura incluiu src/examples/financas (referência), o que eleva contagens de valores fixos."
+}

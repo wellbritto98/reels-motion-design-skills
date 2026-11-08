@@ -1,0 +1,29 @@
+{
+  "name": "padrao-azul-ouro",
+  "brand": { "name": "Meu Canal", "handle": "@meucanal", "tagline": "" },
+  "colors": {
+    "ink": "#06122b",
+    "navy": "#0b1e3d",
+    "card": "#10264c",
+    "card2": "#16315f",
+    "line": "#2b4a7d",
+    "text": "#f4f7ff",
+    "mute": "#9fb3d6",
+    "accent": "#ffc83d",
+    "positive": "#2ee59d",
+    "negative": "#ff5d6c",
+    "info": "#4da3ff",
+    "extra": "#a99bff"
+  },
+  "gradient": ["accent", "positive"],
+  "fonts": {
+    "head": { "family": "Montserrat", "weights": ["600", "800", "900"] },
+    "body": { "family": "Inter", "weights": ["500", "700"] }
+  },
+  "shape": { "cardRadius": 48, "windowRadius": 44, "borderWidth": 3, "accentBar": true },
+  "captions": { "highlight": "accent", "sizeFull": 64, "sizeSplit": 48, "plateColor": "ink", "uppercase": false },
+  "background": { "style": "grid", "gridOpacity": 0.07 },
+  "speaker": { "ring": "accent" },
+  "motion": { "damping": 15, "stiffness": 150 },
+  "sfx": { "gain": 1.25 }
+}
