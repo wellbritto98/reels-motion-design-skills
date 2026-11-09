@@ -18,9 +18,3 @@ node bootstrap.mjs whisper-venv --yes                                   # venv d
 `AGENTS.md`, `CLAUDE.md` e `GEMINI.md` na raiz apontam o agente para essas instruções.
 
 Cada pasta tem seu próprio README com instalação e uso. Ambas seguem o formato comum de skill (pasta com `SKILL.md`), então podem ser copiadas para `.claude/skills/`, `.agents/skills/` ou para as pastas globais de cada agente.
-
-## Créditos e licenças
-- O módulo de corte de `reels-motion-kit/template/scripts/corte/` é adaptado da skill `reel` ([Felpborges/skill-reel](https://github.com/Felpborges/skill-reel)), cujo repositório **não traz arquivo de licença**: este repositório é **privado** por esse motivo. Obtenha permissão ou reescreva o módulo antes de torná-lo público.
-- As ideias de passes de revisão e de extração de tokens do `design-system-skill` vêm de [Trystan-SA/claude-design-system-prompt](https://github.com/Trystan-SA/claude-design-system-prompt) (MIT), reescritas com palavras próprias.
-- `reels-motion-kit/template/src/examples/financas/` contém a transcrição de um reel real de terceiro, usada só como referência de ritmo; remova antes de publicar.
-- Efeitos sonoros do template: sintetizados (sem direitos autorais).
