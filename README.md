@@ -12,7 +12,7 @@ Leia [`SETUP.md`](SETUP.md) (passo a passo para uma IA ou para você) e use `nod
 ```bash
 node bootstrap.mjs check                                                # diagnóstico, não instala nada
 node bootstrap.mjs install-skills --target all --scope project --project <repo> --dry-run
-node bootstrap.mjs new-project C:eelsmeu-video --install --demo       # projeto de vídeo de teste
+node bootstrap.mjs new-project C:/reels/meu-video --install --demo      # projeto de vídeo de teste (caminho curto)
 node bootstrap.mjs whisper-venv --yes                                   # venv do Whisper (~700 MB; só com autorização)
 ```
 `AGENTS.md`, `CLAUDE.md` e `GEMINI.md` na raiz apontam o agente para essas instruções.
